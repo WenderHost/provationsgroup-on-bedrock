@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eec02d64d5fb4b621ebb43cc2e3db7ed",
+    "content-hash": "b97ca2ddcbd05c093531f91d4a3b4da4",
     "packages": [
         {
             "name": "composer/installers",
@@ -1275,15 +1275,15 @@
         },
         {
             "name": "wpackagist-theme/hello-elementor",
-            "version": "2.9.0",
+            "version": "3.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/hello-elementor/",
-                "reference": "2.9.0"
+                "reference": "3.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/hello-elementor.2.9.0.zip"
+                "url": "https://downloads.wordpress.org/theme/hello-elementor.3.0.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
