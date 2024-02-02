@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b09be6dcd43214c2d73552dfe4071eb4",
+    "content-hash": "0ddeb8c1afd078144fbaf65e32cce927",
     "packages": [
         {
             "name": "composer/installers",
@@ -1220,6 +1220,24 @@
             "homepage": "https://solidwp.com/products/security"
         },
         {
+            "name": "wpackagist-plugin/disable-gutenberg",
+            "version": "3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-gutenberg/",
+                "reference": "tags/3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-gutenberg.3.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-gutenberg/"
+        },
+        {
             "name": "wpackagist-plugin/elementor",
             "version": "3.19.0",
             "source": {
@@ -2168,5 +2186,5 @@
         "php": ">=8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
