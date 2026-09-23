@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a56636e553ff9b7e34f5d24aab9d514a",
+    "content-hash": "a9e56c73050acf2f23b5733a6281d244",
     "packages": [
         {
             "name": "composer/installers",
@@ -523,7 +523,7 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "6.9.9",
+            "version": "7.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
@@ -633,23 +633,23 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.9.9",
+            "version": "7.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "6.9.9"
+                "reference": "7.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.w.org/release/wordpress-6.9.9-no-content.zip",
-                "reference": "6.9.9",
-                "shasum": "37aa034b83d8064f627fb6661decdbd7b6993d49"
+                "url": "https://downloads.wordpress.org/release/wordpress-7.1.2-no-content.zip",
+                "reference": "7.1.2",
+                "shasum": "52c0250854a52621dc024651b63d1e088287ee16"
             },
             "require": {
-                "php": ">= 7.2.24"
+                "php": ">= 7.4"
             },
             "provide": {
-                "wordpress/core-implementation": "6.9.9"
+                "wordpress/core-implementation": "7.1.2"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -700,7 +700,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-09-22T14:07:20+00:00"
+            "time": "2026-09-22T13:36:10+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -1166,11 +1166,11 @@
         },
         {
             "name": "wenmark/elementor-pro",
-            "version": "3.35.1",
+            "version": "4.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.35.1",
-                "shasum": "132ef3887025815dfda0ed795d313c218fe460f7"
+                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/4.3.0",
+                "shasum": "1cc7fc5c5a61ba259361951c3d44fffb43f6e13e"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1247,15 +1247,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.35.9",
+            "version": "4.3.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.35.9"
+                "reference": "tags/4.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.35.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.4.3.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
